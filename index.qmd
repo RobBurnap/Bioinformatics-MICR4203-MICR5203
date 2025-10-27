@@ -1,6 +1,33 @@
 ---
-title: Welcome
+title: Welcome to MICR 4203/5203
+subtitle: Bioinformatics — Methods & Applications
+format: html
 ---
 
-This site hosts course notebooks and reference materials for MICR4203/MICR5203.
-Use the sidebar to navigate chapters.
+![Course banner](notebooks/Resources/cover.png){fig-align="center" width="80%"}
+
+### About This Course
+This site hosts interactive exercises, lecture notebooks, and supporting materials for  
+**MICR 4203/5203 – Bioinformatics and Molecular Genetics** at **Oklahoma State University**.
+
+Students learn how to:
+- Work with genomic and protein sequence databases  
+- Perform sequence alignment, phylogenetic analysis, and protein structure prediction  
+- Explore gene expression and systems biology data  
+- Apply bioinformatics to real biological questions
+
+### Navigation
+Use the left sidebar to browse modules in order:
+1. **Foundations** – Getting started with data formats and tools  
+2. **Sequence Alignment** – BLAST, MSA, substitution matrices  
+3. **Phylogenetics** – Tree inference and evolutionary models  
+4. **Genomics & Annotation** – Genome assembly, functional annotation  
+5. **Gene Expression** – RNA-seq and clustering  
+6. **Structure** – 3D models, AlphaFold, visualization  
+7. **Systems Biology** – Metabolic models and network analysis  
+8. **Machine Learning** – Feature extraction and prediction models  
+9. **Applications** – Capstone exercises
+
+### For Students
+All notebooks can be opened directly in **Google Colab** or downloaded for local use.  
+Assignments are linked within each module folder.
