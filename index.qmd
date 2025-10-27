@@ -1,0 +1,6 @@
+---
+title: Welcome
+---
+
+This site hosts course notebooks and reference materials for MICR4203/MICR5203.
+Use the sidebar to navigate chapters.

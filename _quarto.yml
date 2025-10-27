@@ -1,0 +1,40 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+
+ls
+cat <<'YAML' > _quarto.yml
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Bioinformatics: Methods & Applications"
+  author: "Rob Burnap"
+  chapters:
+    - index.qmd
+    - part: "Foundations"
+      chapters: [notebooks/01_Foundations/README.md]
+    - part: "Sequence Similarity & Alignment"
+      chapters: [notebooks/02_Sequence_Alignment/README.md]
+    - part: "Phylogenetics & Molecular Evolution"
+      chapters: [notebooks/03_Phylogenetics/README.md]
+    - part: "Genomics & Annotation"
+      chapters: [notebooks/04_Genomics_Annotation/README.md]
+    - part: "Gene Expression & Transcriptomics"
+      chapters: [notebooks/05_Gene_Expression/README.md]
+    - part: "Structural Bioinformatics"
+      chapters: [notebooks/06_Structure/README.md]
+    - part: "Metabolic Reconstruction & Systems Biology"
+      chapters: [notebooks/07_Systems_Biology/README.md]
+    - part: "Machine Learning"
+      chapters: [notebooks/08_Machine_Learning/README.md]
+    - part: "Applications & Capstone"
+      chapters: [notebooks/09_Applications/README.md]
+
+format:
+  html:
+    theme: cosmo
+    toc: true
