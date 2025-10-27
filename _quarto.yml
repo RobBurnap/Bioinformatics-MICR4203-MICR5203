@@ -4,38 +4,60 @@ project:
 
 book:
   title: "Bioinformatics: Methods & Applications"
-  author: "Rob Burnap"
+  author: "Robert L. Burnap"
+  description: "Oklahoma State University · MICR4203/5203 · Foundations, Tools, and Applications in Bioinformatics"
+  favicon: notebooks/Resources/favicon.png   # optional if you add one later
+  cover-image: notebooks/Resources/cover.png # optional course cover
+  site-url: https://robburnap.github.io/Bioinformatics-MICR4203-MICR5203/
+  repo-url: https://github.com/RobBurnap/Bioinformatics-MICR4203-MICR5203
+  repo-actions: [edit, issue]
   chapters:
     - index.qmd
     - part: "Foundations"
+      icon: mortarboard-fill
       chapters:
         - notebooks/01_Foundations/README.md
     - part: "Sequence Similarity & Alignment"
+      icon: dna
       chapters:
         - notebooks/02_Sequence_Alignment/README.md
     - part: "Phylogenetics & Molecular Evolution"
+      icon: tree
       chapters:
         - notebooks/03_Phylogenetics/README.md
     - part: "Genomics & Annotation"
+      icon: file-earmark-text
       chapters:
         - notebooks/04_Genomics_Annotation/README.md
     - part: "Gene Expression & Transcriptomics"
+      icon: bar-chart-line
       chapters:
         - notebooks/05_Gene_Expression/README.md
     - part: "Structural Bioinformatics"
+      icon: box-seam
       chapters:
         - notebooks/06_Structure/README.md
     - part: "Metabolic Reconstruction & Systems Biology"
+      icon: gear-fill
       chapters:
         - notebooks/07_Systems_Biology/README.md
     - part: "Machine Learning"
+      icon: cpu
       chapters:
         - notebooks/08_Machine_Learning/README.md
     - part: "Applications & Capstone"
+      icon: stars
       chapters:
         - notebooks/09_Applications/README.md
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: slate
     toc: true
+    number-sections: true
+    code-tools: true
+    code-fold: true
+    smooth-scroll: true
+    link-external-newwindow: true
