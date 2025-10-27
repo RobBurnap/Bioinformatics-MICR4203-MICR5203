@@ -1,0 +1,67 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bioinformatics: Methods & Applications",
+    "section": "",
+    "text": "This site hosts course notebooks and reference materials for MICR4203/MICR5203. Use the sidebar to navigate chapters.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/01_Foundations/README.html",
+    "href": "notebooks/01_Foundations/README.html",
+    "title": "2  Foundations",
+    "section": "",
+    "text": "Intro text for this chapter. Replace with objectives, links, and the order of notebooks you want students to run.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Foundations</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/02_Sequence_Alignment/README.html",
+    "href": "notebooks/02_Sequence_Alignment/README.html",
+    "title": "3  Sequence Alignment",
+    "section": "",
+    "text": "Intro text for this chapter. Replace with objectives, links, and the order of notebooks you want students to run.",
+    "crumbs": [
+      "Sequence Similarity & Alignment",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sequence Alignment</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/03_Phylogenetics/README.html",
+    "href": "notebooks/03_Phylogenetics/README.html",
+    "title": "4  Phylogenetics",
+    "section": "",
+    "text": "Intro text for this chapter. Replace with objectives, links, and the order of notebooks you want students to run.",
+    "crumbs": [
+      "Phylogenetics & Molecular Evolution",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Phylogenetics</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/04_Genomics_Annotation/README.html",
+    "href": "notebooks/04_Genomics_Annotation/README.html",
+    "title": "5  Genomics Annotation",
+    "section": "",
+    "text": "Intro text for this chapter. Replace with objectives, links, and the order of notebooks you want students to run.",
+    "crumbs": [
+      "Genomics & Annotation",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Genomics Annotation</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/05_Gene_Expression/README.html",
+    "href": "notebooks/05_Gene_Expression/README.html",
+    "title": "6  Gene Expression",
+    "section": "",
+    "text": "Intro text for this chapter. Replace with objectives, links, and the order of notebooks you want students to run.",
+    "crumbs": [
+      "Gene Expression & Transcriptomics",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Gene Expression</span>"
+    ]
+  }
+]
