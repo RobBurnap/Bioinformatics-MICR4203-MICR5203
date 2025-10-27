@@ -13,3 +13,22 @@ The repository doubles as a **Quarto book**, which organizes all lecture noteboo
 ---
 
 ## 🧭 Repository Structure
+Bioinformatics-MICR4203-MICR5203/
+│
+├─ notebooks/
+│  ├─ 01_Foundations/
+│  ├─ 02_Sequence_Alignment/
+│  ├─ 03_Phylogenetics/
+│  ├─ 04_Genomics_Annotation/
+│  ├─ 05_Gene_Expression/
+│  ├─ 06_Structure/
+│  ├─ 07_Systems_Biology/
+│  ├─ 08_Machine_Learning/
+│  ├─ 09_Applications/
+│  └─ Resources/
+│
+├─ datasets/                # Example datasets for exercises
+├─ _quarto.yml              # Configuration for the Quarto “book”
+├─ index.qmd                # Landing page for Quarto site
+├─ .gitignore
+└─ README.md                # This file
