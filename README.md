@@ -32,3 +32,34 @@ Bioinformatics-MICR4203-MICR5203/
 ├─ index.qmd                # Landing page for Quarto site
 ├─ .gitignore
 └─ README.md                # This file
+
+Each numbered subfolder represents a **module**, roughly corresponding to a lecture or multi-lecture unit.
+
+---
+
+## 🚀 Running Notebooks
+
+### Option 1 — Open in Google Colab
+You can launch most notebooks directly in your browser via Google Colab:
+
+1. Navigate to any `.ipynb` file in the repository.  
+2. Click **“Open in Colab”** (if available) or paste the GitHub URL into:  
+   [https://colab.research.google.com/github](https://colab.research.google.com/github)  
+3. Enable access to your Google Drive if the notebook saves results or data.
+
+> 💡 For large data or high-performance tasks, students can instead run notebooks via the OSU Pete HPC system.
+
+---
+
+### Option 2 — Run Locally (Anaconda)
+```bash
+# Clone this repository
+git clone git@github.com:RobBurnap/Bioinformatics-MICR4203-MICR5203.git
+cd Bioinformatics-MICR4203-MICR5203
+
+# Create and activate a Python environment
+conda create -n bioinfo python=3.11 jupyterlab biopython pandas matplotlib -y
+conda activate bioinfo
+
+# Launch JupyterLab
+jupyter lab
