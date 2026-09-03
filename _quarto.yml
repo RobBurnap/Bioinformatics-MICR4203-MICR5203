@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Bioinformatics: Methods & Applications"
+  site-url: https://robburnap.github.io/Bioinformatics-MICR4203-MICR5203/
+  repo-url: https://github.com/RobBurnap/Bioinformatics-MICR4203-MICR5203
+  navbar:
+    left:
+      - href: index.qmd
+        text: Colab notebooks
+    right:
+      - icon: github
+        href: https://github.com/RobBurnap/Bioinformatics-MICR4203-MICR5203
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    link-external-newwindow: true
