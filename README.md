@@ -1,65 +1,50 @@
-# Bioinformatics: Methods & Applications  
-### MICR 4203 / 5203 — Oklahoma State University  
-**Instructor:** Dr. Robert L. Burnap  
-**Repository:** [Bioinformatics-MICR4203-MICR5203](https://github.com/RobBurnap/Bioinformatics-MICR4203-MICR5203)
+# Bioinformatics: Methods & Applications
 
----
+## MICR 4203 / 5203 — Oklahoma State University
 
-## 📘 Overview
-This repository hosts course materials, Jupyter notebooks, and supporting resources for *Bioinformatics: Methods & Applications*, an upper-division and graduate-level course designed to integrate computational biology, molecular genetics, and systems analysis.
+Instructor: Dr. Robert L. Burnap
 
-The repository doubles as a **Quarto book**, which organizes all lecture notebooks into thematic modules covering sequence analysis, phylogenetics, genomics, structural bioinformatics, and systems biology.
+This public repository is the distribution home for the course's Colab notebooks and small starter datasets. Canvas links students directly to a specific notebook in Google Colab. Each student then saves a personal copy in Google Drive, reads inputs from their `Data/` folders, and writes results to their `Outputs/` folders.
 
----
+## Student workflow
 
-## 🧭 Repository Structure
+```text
+Canvas assignment
+    → Open the assigned notebook in Colab
+    → File → Save a copy in Drive
+    → Read supplied/project inputs from Drive/Data
+    → Save generated results in Drive/Outputs
+    → Select evidence for Drive/Portfolio
+```
+
+## Repository structure
+
+```text
 Bioinformatics-MICR4203-MICR5203/
-│
-├─ notebooks/
-│  ├─ 01_Foundations/
-│  ├─ 02_Sequence_Alignment/
-│  ├─ 03_Phylogenetics/
-│  ├─ 04_Genomics_Annotation/
-│  ├─ 05_Gene_Expression/
-│  ├─ 06_Structure/
-│  ├─ 07_Systems_Biology/
-│  ├─ 08_Machine_Learning/
-│  ├─ 09_Applications/
-│  └─ Resources/
-│
-├─ datasets/                # Example datasets for exercises
-├─ _quarto.yml              # Configuration for the Quarto “book”
-├─ index.qmd                # Landing page for Quarto site
-├─ .gitignore
-└─ README.md                # This file
+├── notebooks/              # Stable student-facing NB00–NB19 notebooks
+├── data/                   # Small, public starter datasets and templates
+├── canvas/                 # Direct Colab URLs and Canvas button guidance
+├── legacy/notebooks/       # Earlier notebooks preserved for reference
+├── docs/                   # GitHub Pages launch hub
+├── index.qmd               # Editable source for the launch hub
+├── _quarto.yml             # Optional Quarto site configuration
+└── README.md
+```
 
-Each numbered subfolder represents a **module**, roughly corresponding to a lecture or multi-lecture unit.
+Student-generated output files are intentionally excluded from this public repository. The matching `Data/`, `Outputs/`, and `Portfolio/` working structure belongs in each student's Google Drive.
 
----
+## Open the course launch hub
 
-## 🚀 Running Notebooks
+[Bioinformatics Colab Notebook Hub](https://robburnap.github.io/Bioinformatics-MICR4203-MICR5203/)
 
-### Option 1 — Open in Google Colab
-You can launch most notebooks directly in your browser via Google Colab:
+## Stable notebook identifiers
 
-1. Navigate to any `.ipynb` file in the repository.  
-2. Click **“Open in Colab”** (if available) or paste the GitHub URL into:  
-   [https://colab.research.google.com/github](https://colab.research.google.com/github)  
-3. Enable access to your Google Drive if the notebook saves results or data.
+Notebook identifiers describe analytical stages and do not depend on lecture numbers. This lets lectures move in the calendar without breaking filenames or Canvas links.
 
-> 💡 For large data or high-performance tasks, students can instead run notebooks via the OSU Pete HPC system.
+- `NB00–NB03`: workspace, sequence foundations, BLASTP, and homolog acquisition
+- `NB04–NB07`: pairwise alignment, scoring, MSA, and conservation
+- `NB08–NB10`: phylogenetic preparation, inference, and interpretation
+- `NB11–NB14`: domains, structure, conservation, and interactions
+- `NB15–NB19`: genome assembly, annotation, comparative genomics, transcriptomics, and integration
 
----
-
-### Option 2 — Run Locally (Anaconda)
-```bash
-# Clone this repository
-git clone git@github.com:RobBurnap/Bioinformatics-MICR4203-MICR5203.git
-cd Bioinformatics-MICR4203-MICR5203
-
-# Create and activate a Python environment
-conda create -n bioinfo python=3.11 jupyterlab biopython pandas matplotlib -y
-conda activate bioinfo
-
-# Launch JupyterLab
-jupyter lab
+Production links target a protected `fall-2026` branch. Course development should occur on feature branches and be merged into that branch only after validation.
