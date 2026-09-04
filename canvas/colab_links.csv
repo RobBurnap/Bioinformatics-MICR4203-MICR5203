@@ -4,8 +4,8 @@ NB01_sequence_foundations,Sequence foundations,https://colab.research.google.com
 NB02_blastp_identity,BLASTP identity,https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB02_blastp_identity.ipynb
 NB03_taxon_directed_homologs,Taxon-directed homologs,https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB03_taxon_directed_homologs.ipynb
 NB04_pairwise_alignment,Global and local pairwise alignment,https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB04_pairwise_alignment.ipynb
-NB05_alignment_scoring_dotplots,Alignment scoring and dot plots,https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB05_alignment_scoring_dotplots.ipynb
-NB06_msa_generation_qc,MSA generation and quality control,https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB06_msa_generation_qc.ipynb
+NB05_alignment_scoring_dotplots,From accepted mutations to PAM and BLOSUM,https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB05_alignment_scoring_dotplots.ipynb
+NB06_msa_generation_qc,"Pairwise distances, guide trees, and MSA quality",https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB06_msa_generation_qc.ipynb
 NB07_msa_conservation,MSA conservation,https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB07_msa_conservation.ipynb
 NB08_phylogeny_preparation,Phylogeny preparation,https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB08_phylogeny_preparation.ipynb
 NB09_phylogenetic_inference,Phylogenetic inference,https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB09_phylogenetic_inference.ipynb
