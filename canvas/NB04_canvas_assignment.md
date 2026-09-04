@@ -6,7 +6,7 @@ Use Biopython to compare global and local protein-sequence alignment and explain
 
 ## Open the Colab notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB04_pairwise_alignment.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB04_pairwise_alignment.ipynb)
 
 When Colab opens:
 
@@ -44,4 +44,3 @@ If the supplied FASTA file is not already in the data folder, the notebook downl
 - Complete all observation and interpretation prompts in your saved notebook.
 
 Submission instructions will be added after the course-wide notebook submission method is selected.
-
