@@ -8,35 +8,35 @@ Choose the notebook assigned in Canvas. Each link opens a fresh copy from the co
 
 ## Foundations and sequence discovery
 
-- [NB00 — Workspace setup](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB00_workspace_setup.ipynb)
-- [NB01 — Sequence foundations](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB01_sequence_foundations.ipynb)
-- [NB02 — BLASTP identity](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB02_blastp_identity.ipynb)
-- [NB03 — Taxon-directed homologs](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB03_taxon_directed_homologs.ipynb)
+- [NB00 — Workspace setup](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB00_workspace_setup.ipynb)
+- [NB01 — Sequence foundations](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB01_sequence_foundations.ipynb)
+- [NB02 — BLASTP identity](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB02_blastp_identity.ipynb)
+- [NB03 — Taxon-directed homologs](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB03_taxon_directed_homologs.ipynb)
 
 ## Alignment and conservation
 
-- [NB04 — Global and local pairwise alignment](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB04_pairwise_alignment.ipynb)
-- [NB05 — Alignment scoring and dot plots](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB05_alignment_scoring_dotplots.ipynb)
-- [NB06 — MSA generation and quality control](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB06_msa_generation_qc.ipynb)
-- [NB07 — MSA conservation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB07_msa_conservation.ipynb)
+- [NB04 — Global and local pairwise alignment](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB04_pairwise_alignment.ipynb)
+- [NB05 — Alignment scoring and dot plots](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB05_alignment_scoring_dotplots.ipynb)
+- [NB06 — MSA generation and quality control](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB06_msa_generation_qc.ipynb)
+- [NB07 — MSA conservation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB07_msa_conservation.ipynb)
 
 ## Phylogenetics
 
-- [NB08 — Phylogeny preparation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB08_phylogeny_preparation.ipynb)
-- [NB09 — Phylogenetic inference](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB09_phylogenetic_inference.ipynb)
-- [NB10 — Tree annotation and interpretation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB10_tree_annotation_interpretation.ipynb)
+- [NB08 — Phylogeny preparation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB08_phylogeny_preparation.ipynb)
+- [NB09 — Phylogenetic inference](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB09_phylogenetic_inference.ipynb)
+- [NB10 — Tree annotation and interpretation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB10_tree_annotation_interpretation.ipynb)
 
 ## Domains and structure
 
-- [NB11 — Domains, HMMs, and motifs](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB11_domains_hmms_motifs.ipynb)
-- [NB12 — Structure prediction and quality control](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB12_structure_prediction_qc.ipynb)
-- [NB13 — Conservation mapped onto structure](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB13_conservation_to_structure.ipynb)
-- [NB14 — Protein interactions](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB14_protein_interactions.ipynb)
+- [NB11 — Domains, HMMs, and motifs](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB11_domains_hmms_motifs.ipynb)
+- [NB12 — Structure prediction and quality control](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB12_structure_prediction_qc.ipynb)
+- [NB13 — Conservation mapped onto structure](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB13_conservation_to_structure.ipynb)
+- [NB14 — Protein interactions](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB14_protein_interactions.ipynb)
 
 ## Genomes, expression, and integration
 
-- [NB15 — Genome assembly quality control](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB15_assembly_qc.ipynb)
-- [NB16 — Genome annotation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB16_genome_annotation.ipynb)
-- [NB17 — Comparative genomics](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB17_comparative_genomics.ipynb)
-- [NB18 — Transcriptomics](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB18_transcriptomics.ipynb)
-- [NB19 — Integrated metabolic capstone](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/fall-2026/notebooks/NB19_metabolic_capstone.ipynb)
+- [NB15 — Genome assembly quality control](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB15_assembly_qc.ipynb)
+- [NB16 — Genome annotation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB16_genome_annotation.ipynb)
+- [NB17 — Comparative genomics](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB17_comparative_genomics.ipynb)
+- [NB18 — Transcriptomics](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB18_transcriptomics.ipynb)
+- [NB19 — Integrated metabolic capstone](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB19_metabolic_capstone.ipynb)

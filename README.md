@@ -47,4 +47,4 @@ Notebook identifiers describe analytical stages and do not depend on lecture num
 - `NB11–NB14`: domains, structure, conservation, and interactions
 - `NB15–NB19`: genome assembly, annotation, comparative genomics, transcriptomics, and integration
 
-Production links target a protected `fall-2026` branch. Course development should occur on feature branches and be merged into that branch only after validation.
+Production links target `main`. Course development should occur on feature branches and be merged only after validation.
