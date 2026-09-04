@@ -1,0 +1,17 @@
+# Synthetic accepted-mutation counts for instruction; not historical Dayhoff data.
+from_aa	to_aa	accepted_count
+I	L	18
+D	E	16
+K	R	15
+S	T	13
+V	I	12
+F	Y	10
+Q	E	8
+N	D	8
+A	G	7
+M	L	7
+H	N	5
+P	A	4
+W	F	3
+C	S	2
+W	G	1

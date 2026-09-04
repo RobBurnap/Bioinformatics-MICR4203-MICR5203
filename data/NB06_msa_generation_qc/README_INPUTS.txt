@@ -1,6 +1,9 @@
-NB06_msa_generation_qc: Multiple-sequence alignment and quality control
+NB06_msa_generation_qc: Pairwise distances, guide trees, and MSA quality
 
-Biological question: Is my homolog set suitable for multiple-sequence alignment?
+Starter files:
+- cytochrome_c_teaching_unaligned.fasta
+- cytochrome_c_teaching_reference_alignment.fasta
 
-Expected input(s):
-Data/NB06_msa_generation_qc/homologs_curated.faa
+The seven sequences are synthetic, cytochrome-c-inspired teaching homologs. They
+make the pairwise-distance, guide-tree, progressive-alignment, and column-quality
+logic visible. They are not observations assigned to species.

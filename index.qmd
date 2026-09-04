@@ -16,8 +16,8 @@ Choose the notebook assigned in Canvas. Each link opens a fresh copy from the co
 ## Alignment and conservation
 
 - [NB04 — Global and local pairwise alignment](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB04_pairwise_alignment.ipynb)
-- [NB05 — Alignment scoring and dot plots](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB05_alignment_scoring_dotplots.ipynb)
-- [NB06 — MSA generation and quality control](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB06_msa_generation_qc.ipynb)
+- [NB05 — From accepted mutations to PAM and BLOSUM](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB05_alignment_scoring_dotplots.ipynb)
+- [NB06 — Pairwise distances, guide trees, and MSA quality](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB06_msa_generation_qc.ipynb)
 - [NB07 — MSA conservation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB07_msa_conservation.ipynb)
 
 ## Phylogenetics
