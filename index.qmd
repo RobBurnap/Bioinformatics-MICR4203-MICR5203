@@ -4,39 +4,14 @@ subtitle: "MICR 4203/5203 · Oklahoma State University"
 format: html
 ---
 
-Choose the notebook assigned in Canvas. Each link opens a fresh copy from the course repository in Google Colab. In Colab, select **File → Save a copy in Drive** before beginning.
+Choose the notebook assigned in Canvas. Each link opens the current course notebook in Google Colab. In Colab, choose **File → Save a copy in Drive** before beginning. Canvas contains the assignment instructions and controls publication status.
 
-## Foundations and sequence discovery
+## Current Colab assignments
 
-- [NB00 — Workspace setup](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB00_workspace_setup.ipynb)
-- [NB01 — Sequence foundations](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB01_sequence_foundations.ipynb)
-- [NB02 — BLASTP identity](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB02_blastp_identity.ipynb)
-- [NB03 — Taxon-directed homologs](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB03_taxon_directed_homologs.ipynb)
+- [Assignment 2 — Organizing Your Colab and Google Drive Workspace](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_02_Organizing_Your_Colab_and_Google_Drive_Workspace.ipynb)
+- [Assignment 3 — Dot Plots and Pairwise Sequence Alignment](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_03_Dot_Plots_and_Pairwise_Sequence_Alignment.ipynb)
+- [Assignment 7 — Python and AI in Colab: Building a FASTA Tool](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_07_Python_and_AI_in_Colab_Building_a_FASTA_Tool.ipynb)
+- [Assignment 10 — Clustering and Heatmaps in Colab](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_10_Clustering_and_Heatmaps_in_Colab.ipynb) *(unpublished draft)*
+- [Assignment 11 — R Gene Expression Analysis and Volcano Plots in Colab](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_11_R_Gene_Expression_and_Volcano_Plots_in_Colab.ipynb) *(unpublished draft)*
 
-## Alignment and conservation
-
-- [NB04 — Global and local pairwise alignment](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB04_pairwise_alignment.ipynb)
-- [NB05 — From accepted mutations to PAM and BLOSUM](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB05_alignment_scoring_dotplots.ipynb)
-- [NB06 — Pairwise distances, guide trees, and MSA quality](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB06_msa_generation_qc.ipynb)
-- [NB07 — MSA conservation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB07_msa_conservation.ipynb)
-
-## Phylogenetics
-
-- [NB08 — Phylogeny preparation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB08_phylogeny_preparation.ipynb)
-- [NB09 — Phylogenetic inference](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB09_phylogenetic_inference.ipynb)
-- [NB10 — Tree annotation and interpretation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB10_tree_annotation_interpretation.ipynb)
-
-## Domains and structure
-
-- [NB11 — Domains, HMMs, and motifs](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB11_domains_hmms_motifs.ipynb)
-- [NB12 — Structure prediction and quality control](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB12_structure_prediction_qc.ipynb)
-- [NB13 — Conservation mapped onto structure](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB13_conservation_to_structure.ipynb)
-- [NB14 — Protein interactions](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB14_protein_interactions.ipynb)
-
-## Genomes, expression, and integration
-
-- [NB15 — Genome assembly quality control](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB15_assembly_qc.ipynb)
-- [NB16 — Genome annotation](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB16_genome_annotation.ipynb)
-- [NB17 — Comparative genomics](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB17_comparative_genomics.ipynb)
-- [NB18 — Transcriptomics](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB18_transcriptomics.ipynb)
-- [NB19 — Integrated metabolic capstone](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB19_metabolic_capstone.ipynb)
+For assignment IDs, archive filenames, and status, see [the assignment crosswalk](canvas/assignment_crosswalk.csv).
