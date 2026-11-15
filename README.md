@@ -26,7 +26,8 @@ Assignments 10 and 11 are unpublished in Canvas. Their notebook files are public
 
 ## Repository structure
 
-- `notebooks/`: current student-facing Colab notebooks
+- `notebooks/`: current student-facing assignment notebooks and compatibility notices
+- `tools/`: optional Advanced Tools and utilities, separate from numbered assignments
 - `data/`: small, public starter datasets and templates
 - `canvas/`: assignment crosswalk and Canvas launch-link guidance
 - `legacy/`: retired filenames and historical material preserved for compatibility
