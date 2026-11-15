@@ -15,3 +15,13 @@ Choose the notebook assigned in Canvas. Each link opens the current course noteb
 - [Assignment 11 — R Gene Expression Analysis and Volcano Plots in Colab](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_11_R_Gene_Expression_and_Volcano_Plots_in_Colab.ipynb) *(unpublished in Canvas; notebook is public in this repository)*
 
 For assignment IDs, archive filenames, and status, see [the assignment crosswalk](canvas/assignment_crosswalk.csv).
+
+## Optional Bioinformatics Tools
+
+These tools are separate from the numbered assignments and have no assignment points or Canvas submission. The Advanced Tool pair is designed to be run in order.
+
+- [Advanced Tool 1 — Build a taxon-directed proteome library](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/tools/Advanced_Tool_01_Proteome_Library_Builder.ipynb)
+- [Advanced Tool 2 — Search the local library with taxon-directed BLAST](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/tools/Advanced_Tool_02_Taxon_Directed_BLAST_Search.ipynb)
+- [Tool — Trim a protein alignment with ClipKIT](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/tools/Tool_Protein_Alignment_Trimming_with_ClipKIT.ipynb)
+
+See the [Tools guide](https://github.com/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/tools/README.md) for the full workflow, setup, Drive paths, and troubleshooting.
