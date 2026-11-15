@@ -32,6 +32,14 @@ Assignments 10 and 11 are unpublished in Canvas. Their notebook files are public
 - `legacy/`: retired filenames and historical material preserved for compatibility
 - `docs/` and `index.qmd`: public launch hub
 
-The optional advanced taxon-directed proteome-library and iterative BLAST workflow remains a separate research notebook pair, not part of the numbered assignment sequence.
+## Optional bioinformatics tools
+
+These tools are separate from the numbered assignments and have no assignment points or Canvas submission. The two Advanced Tools form a sequence: build the per-taxon proteome library first, then search it with BLAST. The ClipKIT utility trims an already aligned protein alignment before tree inference.
+
+- [Advanced Tool 1 — Proteome Library Builder](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/tools/Advanced_Tool_01_Proteome_Library_Builder.ipynb)
+- [Advanced Tool 2 — Taxon-Directed BLAST Search](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/tools/Advanced_Tool_02_Taxon_Directed_BLAST_Search.ipynb)
+- [Tool — Protein Alignment Trimming with ClipKIT](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/tools/Tool_Protein_Alignment_Trimming_with_ClipKIT.ipynb)
+
+See the [Tools guide](tools/README.md) for setup, data layout, parameter guidance, and troubleshooting.
 
 [Open the Bioinformatics Colab Notebook Hub](https://robburnap.github.io/Bioinformatics-MICR4203-MICR5203/)
