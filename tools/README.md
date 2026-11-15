@@ -92,3 +92,20 @@ The builder currently uses GTDB release R232. Check the upstream release page be
 - [NCBI Datasets CLI installation](https://www.ncbi.nlm.nih.gov/datasets/docs/v2/command-line-start/)
 - [NCBI Datasets genome download guide](https://www.ncbi.nlm.nih.gov/datasets/docs/v2/how-tos/genomes/download-genome/)
 - [NCBI BLAST+ documentation](https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html)
+
+
+## Learning by changing settings
+
+These tools are optional utilities, not graded assignments. There are no points, required responses, or submission steps. Their instructional purpose is to make the reasoning behind each workflow visible and let you inspect how a small number of settings changes the result. Keep the default for a first run; then change one setting at a time, use a new run label where available, and compare outputs. The parameter notes below explain what to change and what to watch.
+
+### Advanced Tool 1: library design choices
+
+The curated taxon list is the biological starting point. GTDB enrichment and representative sampling add breadth while genome quality filters limit low-quality records. In the configuration cell, TARGET_RICH and TARGET_OTHER set how many representatives are sought per phylum group; SAMPLE_MIN_COMPLETENESS and SAMPLE_MAX_CONTAMINATION set quality cutoffs; PREFER_ISOLATES and ALLOW_MAG_FALLBACK control isolate versus metagenome-assembled genome choices. For a small safe exploration, adjust a representative target or quality cutoff and inspect the Section 6 count and final taxon table. These choices change the size, taxonomic breadth, and quality balance of the database. Change GTDB_RELEASE only when intentionally refreshing the source release, since a release change can alter taxonomy and accessions. Never run two builders against the same library at once.
+
+### Advanced Tool 2: search sensitivity
+
+EVALUE controls the expected chance similarity score: a lower value is stricter and tends to retain fewer, stronger matches; a higher value can admit weaker, more divergent matches. MIN_QUERY_COVERAGE rejects alignments that span too little of the query; raising it can remove short domain-only matches. TOP_N retains this many best hits per organism and can preserve candidate paralogs when set above one. RUN_LABEL names the output folder, so change it for every parameter comparison. Compare the summary table and retained full-length hit FASTA; these settings affect candidate detection, but a BLAST match alone does not establish orthology or function.
+
+### ClipKIT: alignment trimming choices
+
+ClipKIT acts on columns of an alignment, not on the sequence set itself. MODE="smart-gap" lets ClipKIT choose a gap-aware threshold from the alignment; MODE="gappy" uses the user-set GAP_THRESHOLD. In gappy mode, a value such as 0.8 removes columns whose gap fraction is above 80%; increasing the threshold generally retains more columns. Change one setting at a time, use a distinct RUN_LABEL, and compare the retained-site count, column log, and coverage summaries. Trimming can reduce poorly aligned or gap-heavy sites, but cannot repair a bad alignment and can remove useful evolutionary signal. The short questions in the notebook are optional self-checks for interpreting the report; they are not submissions.
