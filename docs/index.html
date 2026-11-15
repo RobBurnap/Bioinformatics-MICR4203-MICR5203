@@ -1,74 +1,13 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bioinformatics Colab Notebook Hub</title>
-  <style>
-    :root { --orange:#c45100; --dark:#172433; --ink:#263442; --pale:#f4f7fa; --line:#d9e1e8; }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--pale); }
-    header { padding:3.5rem 1.25rem 3rem; color:white; background:linear-gradient(120deg,#182b3a,#294b60 62%,#c45100); }
-    header div, main { max-width:1040px; margin:auto; }
-    h1 { margin:0 0 .5rem; font-size:clamp(2rem,5vw,3.6rem); line-height:1.05; }
-    header p { max-width:760px; margin:.5rem 0 0; font-size:1.12rem; line-height:1.55; }
-    main { padding:2rem 1.25rem 4rem; }
-    .notice { padding:1rem 1.15rem; background:white; border-left:5px solid var(--orange); border-radius:7px; box-shadow:0 2px 12px #17304412; }
-    section { margin-top:2.2rem; }
-    h2 { margin-bottom:1rem; color:var(--dark); }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1rem; }
-    .card { display:flex; flex-direction:column; min-height:180px; padding:1.15rem; background:white; border:1px solid var(--line); border-radius:10px; box-shadow:0 3px 14px #1730440c; }
-    .id { color:var(--orange); font-weight:750; letter-spacing:.03em; }
-    h3 { margin:.35rem 0 .45rem; color:var(--dark); font-size:1.12rem; }
-    .card p { flex:1; margin:0 0 1rem; line-height:1.45; }
-    .button { display:inline-block; align-self:flex-start; padding:.65rem .9rem; color:white; background:#1967d2; border-radius:6px; font-weight:700; text-decoration:none; }
-    .button:hover, .button:focus { background:#0f4fae; text-decoration:underline; }
-    footer { padding:1.5rem; text-align:center; color:#667582; }
-  </style>
-</head>
-<body>
-  <header><div>
-    <h1>Bioinformatics Colab Notebook Hub</h1>
-    <p>MICR 4203/5203 · Oklahoma State University · Dr. Robert L. Burnap</p>
-  </div></header>
-  <main>
-    <div class="notice"><strong>Before beginning:</strong> open the notebook assigned in Canvas, then select <strong>File → Save a copy in Drive</strong> in Google Colab.</div>
-
-    <section><h2>Foundations and sequence discovery</h2><div class="grid">
-      <article class="card"><span class="id">NB00</span><h3>Workspace setup</h3><p>Colab, Google Drive, folders, and reproducible file handling.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB00_workspace_setup.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB01</span><h3>Sequence foundations</h3><p>DNA sequences, FASTA files, translation, and basic Biopython.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB01_sequence_foundations.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB02</span><h3>BLASTP identity</h3><p>Identify the assigned protein and evaluate the supporting evidence.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB02_blastp_identity.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB03</span><h3>Taxon-directed homologs</h3><p>Build a diverse, nonredundant homolog set with documented provenance.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB03_taxon_directed_homologs.ipynb">Open in Colab</a></article>
-    </div></section>
-
-    <section><h2>Alignment and conservation</h2><div class="grid">
-      <article class="card"><span class="id">NB04</span><h3>Pairwise alignment</h3><p>Compare global and local alignments using cytochrome c proteins.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB04_pairwise_alignment.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB05</span><h3>Accepted mutations, PAM, and BLOSUM</h3><p>Turn trusted-alignment observations into transition probabilities and log-odds scores.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB05_alignment_scoring_dotplots.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB06</span><h3>Pairwise distances, guide trees, and MSA quality</h3><p>Connect all-pairs alignment to progressive order and assess conserved or uncertain columns.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB06_msa_generation_qc.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB07</span><h3>MSA conservation</h3><p>Locate conserved positions and compare sequence identities.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB07_msa_conservation.ipynb">Open in Colab</a></article>
-    </div></section>
-
-    <section><h2>Phylogenetics</h2><div class="grid">
-      <article class="card"><span class="id">NB08</span><h3>Phylogeny preparation</h3><p>Prepare alignments, metadata, and an outgroup for inference.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB08_phylogeny_preparation.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB09</span><h3>Phylogenetic inference</h3><p>Build a tree and evaluate models and bootstrap support.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB09_phylogenetic_inference.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB10</span><h3>Tree interpretation</h3><p>Map taxonomy and function onto a tree and defend an interpretation.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB10_tree_annotation_interpretation.ipynb">Open in Colab</a></article>
-    </div></section>
-
-    <section><h2>Domains and structure</h2><div class="grid">
-      <article class="card"><span class="id">NB11</span><h3>Domains, HMMs, and motifs</h3><p>Identify the features that define a protein family.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB11_domains_hmms_motifs.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB12</span><h3>Structure prediction and QC</h3><p>Evaluate a predicted structure and its confidence.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB12_structure_prediction_qc.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB13</span><h3>Conservation in 3D</h3><p>Map conserved residues onto a structure and communicate the result.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB13_conservation_to_structure.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB14</span><h3>Protein interactions</h3><p>Evaluate whether a proposed interaction is structurally plausible.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB14_protein_interactions.ipynb">Open in Colab</a></article>
-    </div></section>
-
-    <section><h2>Genomes, expression, and integration</h2><div class="grid">
-      <article class="card"><span class="id">NB15</span><h3>Assembly quality control</h3><p>Measure and interpret genome assembly quality.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB15_assembly_qc.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB16</span><h3>Genome annotation</h3><p>Summarize genes and functions encoded by a genome.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB16_genome_annotation.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB17</span><h3>Comparative genomics</h3><p>Investigate conserved regions, synteny, and rearrangements.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB17_comparative_genomics.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB18</span><h3>Transcriptomics</h3><p>Explore expression data with quality checks, PCA, and contrasts.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB18_transcriptomics.ipynb">Open in Colab</a></article>
-      <article class="card"><span class="id">NB19</span><h3>Integrated capstone</h3><p>Connect sequence, structure, genome, expression, and function.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/NB19_metabolic_capstone.ipynb">Open in Colab</a></article>
-    </div></section>
-  </main>
-  <footer>Bioinformatics: Methods &amp; Applications · MICR 4203/5203</footer>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bioinformatics Colab Notebook Hub</title>
+<style>
+:root{--orange:#c45100;--dark:#172433;--ink:#263442;--pale:#f4f7fa;--line:#d9e1e8}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--pale)}header{padding:3rem 1.25rem;color:white;background:linear-gradient(120deg,#182b3a,#294b60 62%,var(--orange))}header div,main{max-width:980px;margin:auto}h1{font-size:clamp(2rem,5vw,3.3rem);margin:0 0 .5rem}header p{max-width:700px;line-height:1.5}main{padding:2rem 1.25rem 4rem}.notice,.card{background:white;border:1px solid var(--line);border-radius:9px;padding:1.1rem}.notice{border-left:5px solid var(--orange)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:1rem;margin-top:1rem}.card{display:flex;flex-direction:column;min-height:160px}.id{color:var(--orange);font-weight:750}.card h2{font-size:1.12rem;color:var(--dark)}.card p{flex:1;line-height:1.45}.button{align-self:flex-start;background:#1967d2;color:white;padding:.65rem .9rem;border-radius:6px;text-decoration:none;font-weight:700}.draft{color:#7b4d00;font-size:.9rem}footer{text-align:center;padding:1.5rem;color:#667582}
+</style></head><body><header><div><h1>Bioinformatics Colab Notebook Hub</h1><p>MICR 4203/5203 · Oklahoma State University</p><p>Open the notebook assigned in Canvas. In Colab, select <b>File → Save a copy in Drive</b> before beginning.</p></div></header><main>
+<div class="notice">Canvas is the source for assignment instructions and publication status. Assignments 10 and 11 are unpublished drafts.</div>
+<section class="grid">
+<article class="card"><span class="id">ASSIGNMENT 2</span><h2>Organizing Your Colab and Google Drive Workspace</h2><p>Set up a reproducible workspace for course notebooks and data.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_02_Organizing_Your_Colab_and_Google_Drive_Workspace.ipynb">Open in Colab</a></article>
+<article class="card"><span class="id">ASSIGNMENT 3</span><h2>Dot Plots and Pairwise Sequence Alignment</h2><p>Connect visual sequence comparisons with alignment scoring.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_03_Dot_Plots_and_Pairwise_Sequence_Alignment.ipynb">Open in Colab</a></article>
+<article class="card"><span class="id">ASSIGNMENT 7</span><h2>Python and AI in Colab: Building a FASTA Tool</h2><p>Modify code and build a small sequence-processing tool.</p><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_07_Python_and_AI_in_Colab_Building_a_FASTA_Tool.ipynb">Open in Colab</a></article>
+<article class="card"><span class="id">ASSIGNMENT 10</span><h2>Clustering and Heatmaps in Colab</h2><p>Explore expression patterns, distance, clustering, and heatmaps.</p><span class="draft">Unpublished draft — instructor-facing</span><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_10_Clustering_and_Heatmaps_in_Colab.ipynb">Open in Colab</a></article>
+<article class="card"><span class="id">ASSIGNMENT 11</span><h2>R Gene Expression Analysis and Volcano Plots</h2><p>Work with simulated expression data and adjust analysis parameters in R.</p><span class="draft">Unpublished draft — instructor-facing</span><a class="button" href="https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_11_R_Gene_Expression_and_Volcano_Plots_in_Colab.ipynb">Open in Colab</a></article>
+</section><p><a href="https://github.com/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/canvas/assignment_crosswalk.csv">View the assignment crosswalk (Canvas IDs, filenames, status)</a></p></main><footer>MICR 4203/5203 · Oklahoma State University</footer></body></html>
