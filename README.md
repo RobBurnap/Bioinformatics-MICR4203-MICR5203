@@ -22,7 +22,7 @@ See [the Canvas assignment crosswalk](canvas/assignment_crosswalk.csv) for Canva
 | 10 — Clustering and Heatmaps in Colab | [Open in Colab](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_10_Clustering_and_Heatmaps_in_Colab.ipynb) |
 | 11 — R Gene Expression Analysis and Volcano Plots in Colab | [Open in Colab](https://colab.research.google.com/github/RobBurnap/Bioinformatics-MICR4203-MICR5203/blob/main/notebooks/Assignment_11_R_Gene_Expression_and_Volcano_Plots_in_Colab.ipynb) |
 
-Assignments 10 and 11 are unpublished drafts; their links are instructor-facing until Canvas publication.
+Assignments 10 and 11 are unpublished in Canvas. Their notebook files are public in this repository and can be opened by anyone with the direct link.
 
 ## Repository structure
 
